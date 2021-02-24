@@ -1,5 +1,5 @@
 Package: foofactors
-Title: It factors.
+Title: It factors
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Fredrik",
@@ -8,9 +8,13 @@ Authors@R:
            email = "fedin@previsio.se",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: Does a lot of stuff.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.0.0
+RoxygenNote: 7.1.0
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    forcats
